@@ -1,0 +1,30 @@
+Chatbots are hot today. Chatbots are seen the future way of communicating with your customers, employees and all other people you want to talk to. The essence is that this communication is a dialogue. Contrary to just publishing the information, people who use a chatbot can get to the information they desire more directly by asking questions.
+
+When used for information transfer, chatbots can be used to direct the user to the information he or she wants. Using question–answer pairs, the user can traverse the knowledge captured in the chatbot. This is more efficient than search engines because the chatbot can guide the user to the most relevant answer, instead of presenting a set of texts that might contain the correct answer.
+
+Imagine a service engineer working at customers’ sites maintaining complex products, such as printers and copiers. The engineer must carry paper or electronic books, such as manuals and guidebooks, with him just for looking things up. Though experience counts and the engineer probably knows a lot by heart, more exceptional problems require looking up the solution in a document. Let’s now imagine a chatbot for accessing these product-related documents. By using a chatbot, the engineer can be guided through the diagnosis and problem-solving. This speeds up the servicing times and uniforms the way maintenance is executed within the organization.
+
+Most chatbots are retrieval-based. Retrieval-based models use a repository of predefined responses and heuristics to pick an appropriate response based on the question intent and context. Building a retrieval-based chatbot can be quite cumbersome and time-consuming. All possible dialogues, or auestion–answer pairs, should be defined and configured in the system. This is still very much a manual task.
+
+Not only can building dialogues be hard, maintaining the dialogue can be even harder. When, in our example, new products that must be serviced are released, new documentation is published. These documents must be analyzed and converted into the right question–answer pairs.
+
+One of the reasons knowledge-based systems fail is because it’s very hard to extract knowledge from people and documents. That’s why search engines are still used widely. The search engine itself doesn’t contain knowledge; it only knows keywords and relations between keywords, with no real context.
+
+Building the chatbot
+But how can we create a chatbot that is able to use the ever-changing collection of unstructured documents containing valuable information? Somehow, we’re still stuck with search engines. Search engines are quite capable nowadays. Products like Elasticsearch and IBM Watson Explorer offer the possibility to query documents in a more intelligent way. These search possibilities go beyond simple keyword-based searches because they’re able to analyze the texts they’re searching.
+
+But we’re using a chatbot to search our document base. It’s the task of the chatbot the determine the intent and context of the user’s question. And because it is a dialogue, the chatbot should also remember the interaction with the user so the chatbot can get more context from the user. Is this still a manual job?
+
+No, by using the text analytics capabilities of the document search engine, we can automatically determine what the topics are that are present in the text itself. These topics can be used to create dialogues in the chatbot itself. These dialogues are focused around creating more specific searches. The more specific the searches, the higher the chance that relevant document, or text fragments from documents, is found.
+
+The other way around, we can use the topics in the questions asked to see if the documents are fit-for-purpose. Do the documents contain the answers for the questions the users (will) ask? If not, we’ve to add more relevant documents to the document base or corpus.
+
+It’s the task of the chatbot to map the intent of the user question with the topics present in the document base. And for this natural language understanding is needed to determine intents and topics from texts; whether it is the question of the user or the content of the documents.
+
+Using AI
+Just a few final remarks about the promise of Artificial Intelligence and chatbots. The promise of AI is that it will create more natural, human-like dialogues based on generative models. Generative models don’t rely on pre-defined responses. They generate new responses from scratch.
+
+Within our chatbot, AI can be used for using the document base for answering the questions directly. Products such as IBM Watson Discovery try to interpret the question directly and search the document corpus for relevant answers. But these solutions are beyond the scope of this blog post.
+
+Compared to the current chatbots where every interaction must be configured document-based chatbots offer some clear advantages. Creating such a chatbot is no longer an issue. The technology is there and ready to use. Document-based chatbot does not only offer users the possibility to query large sets of knowledge, but also creates chatbots that are better buildable and maintainable.
+
